@@ -19,7 +19,7 @@ body {
   background: linear-gradient(90deg, #f5004f, #7c00fe);
   width: 90%;
   max-width: 470px;
-  margin: 100px auto 0;
+  margin: 100px auto 100px;
   border-radius: 20px;
   padding: 40px 25px;
   text-align: center;
@@ -54,4 +54,20 @@ button {
 
 .search button img {
   width: 16px;
+}
+
+.images {
+  font-size: 46px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer img {
+  padding: 10px;
 }
