@@ -40,9 +40,8 @@ async function getData(city) {
       case "Snow":
         $("#weather-icon").attr("src", "./images/snow.png");
         break;
-
-      // code block
     }
+    $(".hidden").show();
   } catch (error) {
     console.error(error.message);
     alert("Please try another city");
